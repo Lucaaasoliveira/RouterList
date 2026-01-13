@@ -38,7 +38,7 @@ function TodoList() {
       
       <ul>
         {todos.map((tarefa, index) => (
-          //cada tarefa da array vira um item da lista, cada item precisa de uma key unica
+          //cada tarefa da array vira um item da lista, cada item precisa de uma key unica, map também retorna um NOVO ARRAY (importante)
           <TodoItem 
             key={index}
             todo={tarefa}
