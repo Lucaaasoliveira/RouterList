@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 
-
 function Menu(){
     return(
-        <div>
+        <div className="menu">
             <ul>
                 <li><Link to="/">Ficar ou voltar a página principal</Link>&nbsp;&nbsp;</li>
                 <li><Link to="/tarefas">Ir para a página de tarefas</Link>&nbsp;&nbsp;</li>

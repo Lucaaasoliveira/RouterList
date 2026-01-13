@@ -1,0 +1,11 @@
+.products-page{
+    padding: 20px;
+}
+
+.products-grid{
+    display: flex; /*usar grid layout*/
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start;
+}

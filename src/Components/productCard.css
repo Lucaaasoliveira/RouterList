@@ -1,0 +1,31 @@
+.product-card{
+    width: 220px; /*largura para o cartão*/
+    border: 1px solid #ccc; /*borda cinza clara*/
+    border-radius: 8px; /*bordar arredondadas*/
+    padding: 12px; /*espaçamento interno*/
+    text-align: center; /*centralizar o texto*/
+    background-color: #fff; /*cor de fundo branca*/
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /*transição suave para hover, animação*/
+}
+
+.product-card:hover{
+    transform: translateY(-5px); /*elevar o cartão ao passar o mouse*/
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /*sombra ao redor do cartão*/
+}
+
+.product-card img{
+    width: 100px; /*largura da imagem*/
+    height: 150px; /*altura da imagem*/
+    object-fit: contain; /*manter proporção da imagem, não distorce a imagem*/
+    margin-bottom: 10px; /*espaçamento abaixo da imagem*/
+}
+
+.product-card h2{
+    font-size: 16px; /*tamanho da fonte do título*/
+    margin: 8px 0; /*margem acima e abaixo do título*/
+}
+
+.product-card p{
+    font-size: 14px; /*tamanho da fonte da descrição*/
+    color: #555; /*cor cinza para o texto*/
+}
